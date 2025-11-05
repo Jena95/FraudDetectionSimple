@@ -39,7 +39,10 @@ demo1:
       priority: interactive
   target: dev
 ```
-### 5. Run DBT
+
+### 5. Add the SQL files in Model and makes sure the service account has DataReader access in source and dataEditor in target table.
+
+### 6. Run DBT
 ```bash
 dbt debug
 dbt run
